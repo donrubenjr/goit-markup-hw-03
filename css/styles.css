@@ -1,0 +1,157 @@
+:root {
+  --WHITE: #fff;
+  --IRIS: #4d5ae5;
+  --NAVY-BLUE: #2e2f42;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Navigation or Menu Bar */
+.menu-logo {
+  text-decoration: none;
+  color: var(--NAVY-BLUE);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.menu-logo span {
+  color: var(--IRIS);
+}
+/* Removing the <ul> default padding */
+.header-menu,
+.contact-menu,
+.article-unorder-list,
+.gadget-unorder-list,
+.team-unorder-list {
+  padding: 0;
+}
+
+.header-menu-list {
+  list-style: none;
+}
+
+.header-menu span {
+  color: var(--IRIS);
+}
+
+.header-menu-link {
+  text-decoration: none;
+  color: var(--NAVY-BLUE);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+  list-style-type: none;
+}
+
+.contact-menu-list {
+  list-style: none;
+}
+
+.contact-menu .contact-menu-link {
+  text-decoration: none;
+  color: var(--NAVY-BLUE);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+/* Hero Section */
+.hero-section {
+  background-color: var(--NAVY-BLUE);
+}
+
+h1 {
+  color: var(--WHITE);
+  text-align: center;
+
+  /* Header 1 */
+  font-family: Roboto;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px; /* 107.143% */
+  letter-spacing: 1.12px;
+}
+
+button {
+  /* Button Layout */
+  /* display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px; */
+
+  /* Button Style */
+  border: 0px;
+  border-radius: 4px;
+  background: var(--IRIS);
+  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
+  color: var(--WHITE, #fff);
+
+  /* Button Text */
+  font-family: Roboto;
+  font-size: 16px;
+
+  /* font-style: normal; */
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
+
+/* Section for Article */
+.section-article li {
+  list-style: none;
+}
+
+.section-article p {
+  letter-spacing: 0.72px;
+}
+
+/* Section for Gadget */
+.section-gadget h2 {
+  color: var(--NAVY-BLUE);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.section-team h2 {
+  color: var(--NAVY-BLUE);
+  text-align: center;
+
+  /* Section for Team */
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.section-gadget li {
+  list-style: none;
+}
+
+.section-team li {
+  list-style: none;
+}
+
+footer {
+  background-color: var(--NAVY-BLUE);
+}
+
+footer .menu-logo {
+  color: var(--WHITE);
+}
+
+footer p {
+  color: var(--WHITE);
+}
